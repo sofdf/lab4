@@ -1,0 +1,155 @@
+:root {
+  font-family: "Vineta BT", system-ui, sans-serif; /* Измените шрифт на Roboto */
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+
+  color-scheme: light dark;
+  color: rgb(255, 255, 255); /* Цвет текста */
+  background-image: url('../../1.webp'); /* Укажите путь к вашему изображению */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Устанавливаем направление по вертикали */
+  justify-content: center; /* Центрируем по вертикали */
+  align-items: center; /* Центрируем по горизонтали */
+  min-height: 100vh; /* Минимальная высота равна высоте экрана */
+  text-align: center; /* Выравнивание текста по центру */
+ 
+
+}
+
+.main {
+  color: #000000;
+}
+
+.input{
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a {
+  font-weight: 500;
+  color: #64d0ff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+.searchad{
+  margin-bottom: 20px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #00acd7;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #64f7ff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button_godnd{
+  color: #000000;
+  margin: 50px;
+  font-size: 20px;
+}
+
+.button_gotodo{
+  color: #36cdff;
+  padding: 50px;
+  font-size: 25px;
+}
+
+.button_gotodo:hover{
+  color: #000000;
+}
+
+.button_godnd:hover{
+  color: #000000;
+}
+
+
+.delete-button {
+  margin-right: 10px; 
+  background-color: #78ffff; 
+  font-family: 'Arial';
+  padding: 2px; /* Увеличен внутренний отступ для большего размера кнопки */
+  font-size: 10px; /* Увеличен размер шрифта для лучшей видимости */ 
+}
+
+.delete-button:hover {
+  background-color: #00a6ff; /* Темнее при наведении */
+}
+
+.button_add{
+  margin-left: 5px;
+  background-color: #64b2ff;
+  font-size: 15px;
+}
+
+.button_add:hover{
+  background-color: #47a6a6;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+      color: #000000;
+      background-color: #ffffff;
+      
+  }
+  a:hover {
+      color: #747bff;
+  }
+  button {
+      background-color: #f9f9f9;
+  }
+  /* styles.css */
+.button {
+  background-color: #5bc2f6; /* Зеленый фон */
+  color: rgb(255, 255, 255); /* Белый текст */
+  padding: 10px 20px; /* Отступы */
+  border: none; /* Без рамки */
+  border-radius: 5px; /* Закругленные углы */
+  cursor: pointer; /* Указатель при наведении */
+  transition: background-color 0.3s; /* Плавный переход цвета */
+}
+}
+
+.filter-buttons {
+
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.filter-buttons button {
+  margin: 0 5px;
+}
